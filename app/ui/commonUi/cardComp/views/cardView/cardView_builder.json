@@ -1,0 +1,112 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {
+    "width": "70vw",
+    "height": "100vh",
+    "position": "relative"
+   },
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "card": {
+    "type": "div",
+    "name": "card",
+    "index": 1,
+    "style": {
+     "all": {
+      "height": "80vh",
+      "position": "absolute",
+      "width": "80%",
+      "border": "5px solid red",
+      "top": "10vh",
+      "left": "5vw"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "header": {
+      "type": "div",
+      "name": "header",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "12%",
+        "text-align": "right",
+        "padding-right": "10px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {
+       "button": {
+        "type": "div",
+        "name": "button",
+        "index": 1,
+        "style": {
+         "all": {
+          "display": "inline-block",
+          "padding": "10px",
+          "color": "#ffffff",
+          "background-color": "#526eff",
+          "border-radius": "5px",
+          "margin-top": "10px",
+          "margin-left": "10px"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "text": "...value"
+        },
+        "should_loop": true,
+        "loop_array": "[\n    {\"value\":\"save\"},\n    {\"value\":\"close\"}\n]",
+        "children": {}
+       }
+      }
+     },
+     "body": {
+      "type": "div",
+      "name": "body",
+      "index": 2,
+      "style": {
+       "all": {
+        "height": "88%"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "blue": "#526eff",
+  "white": "#ffffff"
+ },
+ "name": "cardView"
+}

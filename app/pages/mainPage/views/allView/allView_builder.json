@@ -1,0 +1,360 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {},
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "logo": {
+    "type": "div",
+    "name": "logo",
+    "index": 2,
+    "style": {
+     "all": {
+      "text-align": "center",
+      "padding-top": "40px"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "lock": {
+      "type": "image",
+      "name": "lock",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "250px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "type": "local",
+       "location": "assets/images/lock.png"
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   },
+   "list": {
+    "type": "div",
+    "name": "list",
+    "index": 3,
+    "style": {
+     "all": {},
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "box": {
+      "type": "div",
+      "name": "box",
+      "index": 1,
+      "style": {
+       "all": {
+        "width": "60%",
+        "margin": "auto",
+        "margin-top": "50px",
+        "margin-bottom": "50px",
+        "border-radius": "0px",
+        "border": "2px solid    #e0e0e0"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": "[\n    {\n        \"tag\":\"akku\",\n        \"type\":\"rsa\"\n    },\n    {\n        \"tag\":\"nikku\",\n        \"type\":\"rsa\"\n    },\n    {\n        \"tag\":\"chinnu\",\n        \"type\":\"rsa\"\n    }\n]",
+      "children": {
+       "item": {
+        "type": "div",
+        "name": "item",
+        "index": 1,
+        "style": {
+         "all": {
+          "border-bottom": "1px solid    #e0e0e0"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {},
+        "should_loop": false,
+        "loop_array": "[\n    {\n        \"tag\":\"akku\",\n        \"type\":\"rsa\"\n    },\n    {\n        \"tag\":\"nikku\",\n        \"type\":\"rsa\"\n    },\n    {\n        \"tag\":\"chinnu\",\n        \"type\":\"rsa\"\n    }\n]",
+        "children": {
+         "type": {
+          "type": "div",
+          "name": "type",
+          "index": 1,
+          "style": {
+           "all": {
+            "width": "35%",
+            "display": "inline-block",
+            "text-align": "center",
+            "padding": "10px"
+           },
+           "browser": {
+            "mobile": {}
+           }
+          },
+          "controllers": {
+           "text": "rsa"
+          },
+          "should_loop": false,
+          "loop_array": {},
+          "children": {}
+         },
+         "name": {
+          "type": "div",
+          "name": "name",
+          "index": 2,
+          "style": {
+           "all": {
+            "width": "35%",
+            "display": "inline-block",
+            "text-align": "center",
+            "padding": "10px"
+           },
+           "browser": {
+            "mobile": {}
+           }
+          },
+          "controllers": {
+           "text": "comppo"
+          },
+          "should_loop": false,
+          "loop_array": {},
+          "children": {}
+         },
+         "delete": {
+          "type": "div",
+          "name": "delete",
+          "index": 3,
+          "style": {
+           "all": {
+            "width": "30%",
+            "text-align": "center",
+            "display": "inline-block"
+           },
+           "browser": {
+            "mobile": {}
+           }
+          },
+          "controllers": {},
+          "should_loop": false,
+          "loop_array": {},
+          "children": {
+           "delete": {
+            "type": "image",
+            "name": "delete",
+            "index": 1,
+            "style": {
+             "all": {
+              "height": "40px"
+             },
+             "browser": {
+              "mobile": {}
+             }
+            },
+            "controllers": {
+             "type": "url",
+             "location": "assets/images/delete.png"
+            },
+            "should_loop": false,
+            "loop_array": {},
+            "children": {}
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   },
+   "menu": {
+    "type": "div",
+    "name": "menu",
+    "index": 1,
+    "style": {
+     "all": {
+      "height": "70px",
+      "padding-top": "10px",
+      "text-align": "right",
+      "padding-right": "20px",
+      "position": "fixed",
+      "top": "0px",
+      "left": "0px",
+      "width": "70vw"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "close": {
+      "type": "image",
+      "name": "close",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "50px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "type": "local",
+       "location": "assets/images/close.png"
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   },
+   "new": {
+    "type": "div",
+    "name": "new",
+    "index": 5,
+    "style": {
+     "all": {},
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "box": {
+      "type": "div",
+      "name": "box",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "50px",
+        "width": "50%",
+        "margin": "auto",
+        "border": "5px solid  #6e39fe"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {
+       "type": {
+        "type": "input",
+        "name": "type",
+        "index": 1,
+        "style": {
+         "all": {
+          "height": "100%",
+          "width": "33.3%",
+          "text-align": "center",
+          "border": "0px #6e39fe"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "type": "select",
+         "options": {
+          "rsa keys": "rsa",
+          "text document": "text"
+         }
+        },
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       },
+       "tag": {
+        "type": "input",
+        "name": "tag",
+        "index": 2,
+        "style": {
+         "all": {
+          "height": "100%",
+          "width": "33.3%",
+          "text-align": "center",
+          "border": "0px  #6e39fe",
+          "border-left": "1px solid  #e0e0e0"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "type": "string",
+         "placeholder": "name"
+        },
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       },
+       "button": {
+        "type": "div",
+        "name": "button",
+        "index": 3,
+        "style": {
+         "all": {
+          "height": "100%",
+          "width": "33.3%",
+          "display": "inline-block",
+          "text-align": "center",
+          "background-color": "#6e39fe",
+          "color": "#ffffff"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "text": "add"
+        },
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "purple": "#6e39fe",
+  "white": "#ffffff",
+  "grey": "#e0e0e0"
+ },
+ "name": "allView"
+}

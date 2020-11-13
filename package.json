@@ -1,0 +1,25 @@
+{
+  "name": "rsaAkku",
+  "version": "2.0.0",
+  "description": "this is a rsa keys manager secured with aes 256 bit password encryption",
+  "main": "electro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "akku",
+  "license": "ISC",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.19.0",
+    "@editorjs/header": "^2.6.0",
+    "@editorjs/list": "^1.6.1",
+    "crypto-js": "^4.0.0",
+    "hadron-ipc": "^1.1.1",
+    "keypair": "^1.0.1",
+    "vegana-engine": "^0.2.0"
+  },
+  "devDependencies": {
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1"
+  }
+}

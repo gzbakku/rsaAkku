@@ -1,0 +1,69 @@
+
+
+	.lock-master-logo{
+		text-align:center;
+		padding-top:100px;
+		// border: 5px solid red;
+	}
+
+		.lock-master-logo-logo{
+			height:200px;
+		}
+
+		.lock-master-info-title{
+			color:#361fa8;
+			text-align:center;
+			font-family:"bigShoulders";
+			margin-top:20px;
+			font-size:50px;
+		}
+
+		.lock-master-info-intro{
+			text-align:center;
+			margin-top:50px;
+			font-family:"bigShoulders";
+			font-size:20px;
+			// border: 5px solid red;
+			width: 90%;
+			margin: auto;
+		}
+
+	.lock-master-login{
+		text-align:center;
+		margin-bottom: 100px;
+	}
+
+		.lock-master-login-cover{
+			margin-top:50px;
+			margin-bottom:10px;
+			width:50%;
+			display:inline-block;
+			border:5px solid  #361fa8;
+			border-radius:10px;
+			height:40px;
+			background-color: #361fa8;
+		}
+
+			.lock-master-login-cover-password{
+				display:inline-block;
+				vertical-align: top;
+				width:70%;
+				height:100%;
+				border-radius: 5px;
+				border: 0px;
+				padding-left: 10px;
+				padding-right: 10px;
+				text-align: center;
+			}
+
+			.lock-master-login-cover-button{
+				display:inline-block;
+				vertical-align: top;
+				width:30%;
+				height:100%;
+				background-color:#361fa8;
+				color:#ffffff;
+				padding-top: 5px;
+				font-family:"bigShoulders";
+				cursor: pointer;
+			}

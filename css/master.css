@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.page-router {
+  border-radius: 10px;
+  background-color: white;
+  height: 100vh;
+  overflow: auto; }
+
+.page-router::-webkit-scrollbar {
+  display: none; }
+
+.lock-master-logo {
+  text-align: center;
+  padding-top: 100px; }
+
+.lock-master-logo-logo {
+  height: 200px; }
+
+.lock-master-info-title {
+  color: #361fa8;
+  text-align: center;
+  font-family: "bigShoulders";
+  margin-top: 20px;
+  font-size: 50px; }
+
+.lock-master-info-intro {
+  text-align: center;
+  margin-top: 50px;
+  font-family: "bigShoulders";
+  font-size: 20px;
+  width: 90%;
+  margin: auto; }
+
+.lock-master-login {
+  text-align: center;
+  margin-bottom: 100px; }
+
+.lock-master-login-cover {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 50%;
+  display: inline-block;
+  border: 5px solid  #361fa8;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #361fa8; }
+
+.lock-master-login-cover-password {
+  display: inline-block;
+  vertical-align: top;
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
+  border: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center; }
+
+.lock-master-login-cover-button {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  height: 100%;
+  background-color: #361fa8;
+  color: #ffffff;
+  padding-top: 5px;
+  font-family: "bigShoulders";
+  cursor: pointer; }
+
+.allView-master-logo {
+  text-align: center;
+  padding-top: 40px; }
+
+.allView-master-logo-lock {
+  height: 250px; }
+
+.allView-master-new-box {
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  border: 5px solid  #6e39fe;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #6e39fe;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+
+.allView-master-new-box-type {
+  vertical-align: top;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  border: 0px #6e39fe;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; }
+
+.allView-master-new-box-tag {
+  vertical-align: top;
+  height: 100%;
+  width: 30%;
+  text-align: center;
+  border: 0px  #6e39fe;
+  border-left: 1px solid  #e0e0e0; }
+
+.allView-master-new-box-size {
+  vertical-align: top;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  border: 0px  #6e39fe;
+  border-left: 1px solid  #e0e0e0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.allView-master-new-box-button {
+  vertical-align: top;
+  height: 100%;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  background-color: #6e39fe;
+  color: #ffffff;
+  padding-top: 6px;
+  font-size: 24px;
+  font-family: "bigShoulders";
+  text-transform: capitalize;
+  cursor: pointer; }
+
+.allView-master-list-box {
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  user-select: none;
+  border: 2px solid #6e39fe; }
+
+.allView-master-list-box-item {
+  border-bottom: 2px solid #6e39fe;
+  font-family: "bigShoulders"; }
+
+.allView-master-list-box-item-type {
+  vertical-align: top;
+  width: 35%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  text-transform: capitalize;
+  cursor: pointer; }
+
+.allView-master-list-box-item-name {
+  vertical-align: top;
+  width: 35%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer; }
+
+.allView-master-list-box-item-delete {
+  vertical-align: top;
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+  padding: 10px; }
+
+.allView-master-list-box-item-delete-delete {
+  height: 30px;
+  cursor: pointer; }
+
+.alert-master {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 11; }
+
+.alert-master-background {
+  background-color: #ebe5e5;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  opacity: 0.5; }
+
+.alert-master-card {
+  min-height: 50px;
+  max-height: 60vh;
+  width: 50vw;
+  position: absolute;
+  top: 10vh;
+  left: 25vw;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.alert-master-card-message {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "bigShoulders";
+  font-size: 24px; }
+
+.alert-master-card-buttons {
+  float: center;
+  text-align: right;
+  padding-right: 10px; }
+
+.alert-master-card-buttons-buttons {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  color: #61a5ff;
+  font-family: "bigShoulders";
+  cursor: pointer;
+  font-size: 24px; }
+
+.card-master-card {
+  height: 85vh;
+  position: fixed;
+  width: 90vw;
+  top: 10vh;
+  left: 5vw;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  z-index: 10; }
+
+.card-master-card-header {
+  height: 12%;
+  text-align: right;
+  padding-right: 10px;
+  cursor: pointer; }
+
+.card-master-card-header-button {
+  display: inline-block;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #526eff;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: "bigShoulders";
+  cursor: pointer;
+  z-index: 10; }
+
+.card-master-card-body {
+  height: 88%;
+  overflow: auto; }
+
+.allView-master-menu_drag {
+  height: 70px;
+  width: 80vw;
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  cursor: pointer; }
+
+.allView-master-menu_buttons {
+  height: 70px;
+  width: 20vw;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  padding-top: 10px; }
+
+.allView-master-menu-close {
+  height: 50px;
+  cursor: pointer; }
+
+.rsa-master {
+  text-align: center; }
+
+.rsa-master-private {
+  background-color: #fe755d;
+  color: #ffffff;
+  padding: 10px;
+  width: 80%;
+  margin-top: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+  word-wrap: break-word; }
+
+.rsa-master-public {
+  width: 80%;
+  background-color: #80ceff;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  word-wrap: break-word; }

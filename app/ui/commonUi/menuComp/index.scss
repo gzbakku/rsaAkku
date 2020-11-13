@@ -1,0 +1,35 @@
+
+
+
+.allView-master-menu_drag{
+  height:70px;
+  width:80vw;
+  padding-top:10px;
+  text-align:right;
+  padding-right:20px;
+  position:fixed;
+  top:0px;
+  left:0px;
+
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+  // border-bottom: 1px solid grey;
+  cursor: pointer;
+  // border: 5px solid green;
+}
+
+.allView-master-menu_buttons{
+  height: 70px;
+  width: 20vw;
+  position: fixed;
+  top:0px;
+  right:0px;
+  text-align: center;
+  // border: 5px solid red;
+  padding-top: 10px;
+}
+
+  .allView-master-menu-close{
+    height:50px;
+    cursor: pointer;
+  }

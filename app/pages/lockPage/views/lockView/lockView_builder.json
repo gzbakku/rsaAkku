@@ -1,0 +1,214 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {},
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "logo": {
+    "type": "div",
+    "name": "logo",
+    "index": 1,
+    "style": {
+     "all": {
+      "text-align": "center",
+      "padding-top": "50px"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "logo": {
+      "type": "image",
+      "name": "logo",
+      "index": 1,
+      "style": {
+       "all": {
+        "height": "200px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "type": "local",
+       "location": "assets/images/lock.png"
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   },
+   "info": {
+    "type": "div",
+    "name": "info",
+    "index": 2,
+    "style": {
+     "all": {},
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "title": {
+      "type": "div",
+      "name": "title",
+      "index": 1,
+      "style": {
+       "all": {
+        "color": "#361fa8",
+        "text-align": "center",
+        "font-family": "bigShoulders",
+        "margin-top": "20px",
+        "font-size": "50px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "text": "Rsa Akku"
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     },
+     "intro": {
+      "type": "div",
+      "name": "intro",
+      "index": 2,
+      "style": {
+       "all": {
+        "text-align": "center",
+        "margin-top": "50px",
+        "font-family": "bigShoulders",
+        "font-size": "30px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {
+       "text": "this software is a rsa keys safe keep secured with a password"
+      },
+      "should_loop": false,
+      "loop_array": {},
+      "children": {}
+     }
+    }
+   },
+   "login": {
+    "type": "div",
+    "name": "login",
+    "index": 3,
+    "style": {
+     "all": {
+      "text-align": "center"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {},
+    "should_loop": false,
+    "loop_array": {},
+    "children": {
+     "cover": {
+      "type": "div",
+      "name": "cover",
+      "index": 1,
+      "style": {
+       "all": {
+        "margin-top": "50px",
+        "margin-bottom": "10px",
+        "width": "50%",
+        "display": "inline-block",
+        "border": "5px solid  #361fa8",
+        "border-radius": "10px",
+        "height": "40px"
+       },
+       "browser": {
+        "mobile": {}
+       }
+      },
+      "controllers": {},
+      "should_loop": false,
+      "loop_array": {},
+      "children": {
+       "password": {
+        "type": "input",
+        "name": "password",
+        "index": 1,
+        "style": {
+         "all": {
+          "width": "70%",
+          "height": "100%"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "type": "string"
+        },
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       },
+       "button": {
+        "type": "div",
+        "name": "button",
+        "index": 2,
+        "style": {
+         "all": {
+          "display": "inline-block",
+          "width": "30%",
+          "height": "100%",
+          "background-color": "#361fa8",
+          "color": "#ffffff"
+         },
+         "browser": {
+          "mobile": {}
+         }
+        },
+        "controllers": {
+         "text": "login"
+        },
+        "should_loop": false,
+        "loop_array": {},
+        "children": {}
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "fonts": {
+  "default": {
+   "name": "bigShoulders",
+   "tag": "default",
+   "location": "assets/fonts/BigShouldersStencilText-Regular.ttf"
+  }
+ },
+ "colors": {
+  "purple": "#361fa8",
+  "white": "#ffffff"
+ },
+ "name": "lockView"
+}

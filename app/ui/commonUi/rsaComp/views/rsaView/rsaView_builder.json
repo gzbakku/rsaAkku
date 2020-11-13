@@ -1,0 +1,81 @@
+{
+ "builder": {
+  "type": "div",
+  "name": "master",
+  "style": {
+   "all": {
+    "width": "70vw",
+    "text-align": "center"
+   },
+   "browser": {
+    "mobile": {}
+   }
+  },
+  "controllers": {},
+  "should_loop": false,
+  "loop_array": [],
+  "children": {
+   "private": {
+    "type": "div",
+    "name": "private",
+    "index": 1,
+    "style": {
+     "all": {
+      "background-color": "#fe755d",
+      "color": "#ffffff",
+      "padding": "10px",
+      "width": "80%",
+      "margin-top": "10px",
+      "border-radius": "10px",
+      "display": "inline-block",
+      "text-align": "left"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {
+     "text": "-----BEGIN RSA PRIVATE KEY-----\r\nMIIBOAIBAAJAbfhU2PdVw4mR7FScQZWcMxYbbJyDmBfltMpT1rUm1QLoYwS62Drl\r\nqq60r6uAJZ2qiVOehMgvEDfvjtOTgsAe4QIDAQABAkBayLKK9wzHQw/DUUo53l+3\r\n0N1M+Zytd7T7Xjh+PMhU+l85l9EBLNvlWn8BpZ8pVf7Fr/lq9a+SlqbMmdoledHN\r\nAiEAr6nlHPFmTD89KeuLjq/65i+061fD7I0tC0e2lPqRKVMCIQCgQ0BlMmRR8P/C\r\n8yex1RQYhikndUPEMVWPorr6XJ0sewIgBRe72Lb27Eb5EvoNNbnMYFgJurj0qSr+\r\nn1EY7gDFrJkCIG8vuVF8MJWY+hiq0fNSvWp2Sb8SYD2RbKcGY2qnLnRZAiAo7mhs\r\nFE+vP33bfuDkrVdkdzx34aEqbAuQGg7m2ObNug==\r\n-----END RSA PRIVATE KEY-----"
+    },
+    "should_loop": false,
+    "loop_array": {},
+    "children": {}
+   },
+   "public": {
+    "type": "div",
+    "name": "public",
+    "index": 2,
+    "style": {
+     "all": {
+      "width": "80%",
+      "background-color": "#80ceff",
+      "color": "#ffffff",
+      "text-align": "left",
+      "padding": "10px",
+      "display": "inline-block",
+      "border-radius": "10px",
+      "margin-top": "10px",
+      "margin-bottom": "10px"
+     },
+     "browser": {
+      "mobile": {}
+     }
+    },
+    "controllers": {
+     "text": "-----BEGIN PUBLIC KEY-----\r\nMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAJy40e4ohh1c1tqYa7HUdmwLbIBXPmLW\r\nG7o0cJdKlcdM7IthKz1u6aJT3mVLY2VzWgZ6UFwPZRFqUTSQXTgWLGMCAwEAAQ==\r\n-----END PUBLIC KEY-----"
+    },
+    "should_loop": false,
+    "loop_array": {},
+    "children": {}
+   }
+  }
+ },
+ "fonts": {},
+ "colors": {
+  "purple": "#6b3ab6",
+  "white": "#ffffff",
+  "orange": "#fe755d",
+  "blue": "#80ceff"
+ },
+ "name": "rsaView"
+}

@@ -1,0 +1,32 @@
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+
+
+  // box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  // border: 5px solid red;
+}
+
+.page-router{
+  border-radius: 10px;
+  background-color: white;
+  height: 100vh;
+  overflow: auto;
+  // width: 90%;
+  // margin: auto;
+}
+
+.page-router::-webkit-scrollbar {
+  display: none;
+}
+
+$font-button:'bigShoulders';
+$font-text:'bigShoulders';
+
+@import './vegana_tree';
